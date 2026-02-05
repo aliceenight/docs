@@ -55,7 +55,7 @@ export default defineConfig({
 					label: 'Legal',
 					items: [
                         { label: 'License', slug: 'legal/license' },
-                        { label: 'Privacy Policy', slug: 'legal/privacy-policy' },
+                        // { label: 'Privacy Policy', slug: 'legal/privacy-policy' },
 					],
                 },
                 {
