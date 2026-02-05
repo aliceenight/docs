@@ -1,7 +1,7 @@
 /** font **/
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-* {
+body {
     font-family: 'Inter', sans-serif;
 }
 
@@ -19,19 +19,24 @@
     --sl-color-text: #eeeeee;
     --sl-color-text-accent: #1a99dd;
     --sl-color-black: #161616;
-    
-    /** REFERENCE, NOT ACTUALLY USED BY ANYTHING **/
-    --color-astronaut-blue-50: #f1f8fe;
-    --color-astronaut-blue-100: #e2f1fc;
-    --color-astronaut-blue-200: #bee3f9;
-    --color-astronaut-blue-300: #84cdf5;
-    --color-astronaut-blue-400: #42b2ee;
-    --color-astronaut-blue-500: #1a99dd;
-    --color-astronaut-blue-600: #0d7abc;
-    --color-astronaut-blue-700: #0c6198;
-    --color-astronaut-blue-800: #0e537e;
-    --color-astronaut-blue-900: #114467;
-    --color-astronaut-blue-950: #0c2c45;
+}
+
+:root[data-theme='light'] {
+    --sl-color-accent-low: #e0f7ff;
+    --sl-color-accent: #1a99dd;
+    --sl-color-accent-high: #0c2c45;
+
+    --sl-color-bg: #ffffff;
+    --sl-color-bg-nav: #f6f6f6;
+    --sl-color-bg-sidebar: #f9f9f9;
+
+    --sl-color-text: #242424;
+    --sl-color-text-accent: #106a9c;
+    --sl-color-black: #ffffff;
+}
+
+.code {
+    font-family: Consolas, monospace;
 }
 
 .inline-icon {
