@@ -17,7 +17,7 @@ export default defineConfig({
                     tag: 'meta',
                     attrs: {
                         property: 'og:image',
-                        content: '/og.png',
+                        content: '/Thumbnail.png',
                     },
                 },
             ],
